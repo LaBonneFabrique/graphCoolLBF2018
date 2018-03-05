@@ -1,0 +1,7 @@
+type ListeEventsPayload {
+    message: [Json!]!
+}
+
+extend type Query {
+  listeEvents: ListeEventsPayload
+}

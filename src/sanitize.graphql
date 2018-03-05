@@ -1,0 +1,7 @@
+type SanitizePayload {
+    sanitized: String!
+}
+
+extend type Mutation {
+  sanitize(texte: String!): SanitizePayload!
+}

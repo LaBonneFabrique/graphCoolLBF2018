@@ -1,0 +1,7 @@
+type deleteEventPayload {
+    eventId: String
+}
+
+extend type Query {
+  deleteEvent(eventId: String!): deleteEventPayload
+}

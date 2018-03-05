@@ -1,0 +1,8 @@
+type updateEventPayload {
+    idEvent: String!
+    sequenceEvent: Int!
+}
+
+extend type Query {
+  updateEvent(eventId: String!, dataEvent: Json!): updateEventPayload!
+}

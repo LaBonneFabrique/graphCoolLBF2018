@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "flash-audio-192311",
+  "private_key_id": "b9e3a3df381a30fd27c158e1b8a15265a632906a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDL2+RZb7qbCoOy\n7IrKuy8uF9IdYKV//LxX8q0aMYr4zKT1CRBC+saFVkRt7mBXqLpbK7Wio81cIPGo\nVdj1gYxj1BZPRYvuOBoCT4R6j8KTVswmz1fvBA40F1tjPEzCsEmDdzYahsVAGSDd\nR1MRSWhHR3U1ksehiexjggubcLK+mgqYjpQHRP2ZmAic0Hs8HqUuIh3LOff5iqom\nmKx0EGV4O1OOZZfOFdEjdP7UL+79Xx40nmKsA0fFCwy/RFdBPIw8oY8LUEnKA1kE\npHF9xqYtMe2G7uIqPUXJnpdUCHFaXooGidxOnsIc7sdCjBCCIJEOB7g8qYtit+Th\n1u1XIQk7AgMBAAECggEARATztS/FeLPSa6HnUWuRe3SxQ+IadpDymvm67lF3iDpo\nE+ZZSa/5C0ZUgMWX2cfPnloAOesju0i2uS8jvA7ks+5xHzQaU3remsTDdE2BY74D\nUjO+qF6XCqR8dqkJB7DgZoAhSkqLiC6aO5rvyYXPyHC8WArIl0q42B7tFolM6rFM\nwpWZUQBsJ7WmXFj9yukCaNrRxqKbhjOEXKbNofcGzY+tQeNjo7HvIHhiq3oyVvAu\nHTDmnNIHD5gMm2qdSa/8fhkPOabVqTuOjs2QI//pmjj3Lx5XlHcPRyskW7BF5Eak\naP+wlrWbso2ieRjuImOXJRWKVr3gJ93h1d/TPWgksQKBgQDlVXHRDyR+WWj7nC1N\nMurFSPT5GhkNMCLSk9qCC/LTPmGEaY9cJtJoO0mlFSkC0ZicK8CfJvWdfMlSgPxY\nSMcr2XTUWfUmBrVVa+BM0w7EWtbPebxm9/M3tDh0K1z/yIZG3PtdlW/mU/wYH+qo\n/Ka5txGDkKvOn4A0EgTHw48aiQKBgQDjkCQgZZp7zql1tg8POVJAOSAkGeopNiEc\n16YspT4Sq3mFIu7G1qum+TJ9g1t5QIysj/RrW0ZaPrbR6OAEQjXT+5Jg6gSSzeiq\n9TFQHf9z1+ADFsp3gs2xbj1R8Uyb6HKr5gpWhDG41lZJxCwtlzoo6DpEHzjWEJDw\nC38DV5EEowKBgQDNXfbOgADuJKMernzi5PXYNb0qVXSZmsGUUVMboheRlAs/yEfY\n/ert7CnG62wOWiOPtp6H5xuMLHMcruVLKeEyI0m739LoeploJXJ3WYmfzLkQkrNk\ngiYLfBgR78MYSznzu3BeHbRXTl4yPGKncZjcNlQ4vRUdszfbaUdenIFKAQKBgD02\nf9FLI3QcUk88qu5gb/SgqTms0uVFD0Ev7R5jUMA66hRbIjnQcxoWPHOwywFh0LV2\nf7wFMHaEGi964g+jM9GTAXwaVyKaSvT5wcsYVqf1sOeD0PC2+de5nLsXGpFxxK7i\n0XMWWj2rQkjTgUK+REHOviWm9GX4zNQVc5QVkQfbAoGAJ7PBMqL9p8SNCkV6eR5S\nOBl5a6lWCfYuc3yckcRGF4VW3e4OYAQD3UbEMPHc+t22vf8uz0/HRWh25GnuF7Nf\nK1Q6q/AeHWri0wpSpt7M5NJrISMHetZFlszP5q/aCxEOium2jPImXQl7Er+H2rtk\nAVhTrsn5M/oI9wozY/8kz04=\n-----END PRIVATE KEY-----\n",
+  "client_email": "agendalbf2@flash-audio-192311.iam.gserviceaccount.com",
+  "client_id": "105685150455238805575",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/agendalbf2%40flash-audio-192311.iam.gserviceaccount.com"
+}

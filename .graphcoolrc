@@ -1,0 +1,3 @@
+targets:
+  baseLBF: shared-eu-west-1/cjdw6vryn23gm0113jhsozksl
+  default: baseLBF

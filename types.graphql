@@ -1,0 +1,108 @@
+# The following types define the data model of the example service
+# based on which the GraphQL API is generated
+
+type ActivitesIllustration @model {
+  id: ID! @isUnique
+  idImage: String!
+  format: String!
+  espace: EspaceBF!
+}
+
+type Activite @model {
+  id: ID! @isUnique
+  idCycle: String
+  titreActivite: String!
+  section: String!
+  checkInscription: Boolean
+  checkInscriptionCycle: Boolean
+  lieuActivite: String
+  description: String!
+  illustration: String
+  prix: [Json!]
+  publie: Boolean!
+  inscriptions: [Inscription!]! @relation(name: "InscriptionsActivites")
+  dateDebut: DateTime
+  dateFin: DateTime
+  maxParticipants: Int
+  idGoogleEvent: String,
+  sequenceEvent: Int,
+  type: Types! @migrationValue(value: Ateliers)
+  tags: [String!]
+}
+
+type Tag @model {
+  id: ID! @isUnique
+  nom: String!
+}
+
+type Prix @model {
+  id: ID! @isUnique
+  description: String!
+  prix: Float!
+  qf: Boolean!
+}
+
+type Profil @model {
+  id: ID! @isUnique
+  nom: String!
+  prenom: String!
+  email: String
+  dateNaissance: String
+  badges: [String!]
+  user: User @relation(name: "ProfilUsers")
+}
+
+enum EspaceBF {
+  LaBonneFabrique
+  LaBrasserie
+  LespaceCoworking
+  LaSalleDesMachines
+  Autres
+}
+
+type User @model {
+    id: ID! @isUnique # read-only (managed by Graphcool)
+ 
+    createdAt: DateTime! # read-only (managed by Graphcool)
+    updatedAt: DateTime! # read-only (managed by Graphcool)
+
+    email: String! @isUnique
+    password: String!
+    
+    profil: [Profil!]! @relation(name: "ProfilUsers")
+    qf: Int
+    role: [Roles!]
+}
+
+enum Roles {
+  Utilisateur
+  Secondaire
+  Admin
+}
+
+enum Types {
+  Ateliers
+  Infos
+  PetitesAnnonces
+}
+ 
+type Inscription @model {
+  id: ID! @isUnique
+  cycleId: String!
+  membreId: String!
+  activite: Activite @relation(name: "InscriptionsActivites")
+}
+
+type ResetMDP @model {
+  id: ID! @isUnique
+  userId: String!
+  validity: DateTime!
+}
+
+type Information @model {
+  id: ID! @isUnique
+  createdAt: DateTime!
+  updatedAt: DateTime!
+  titre: String
+  texte: String
+}

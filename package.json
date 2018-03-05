@@ -1,0 +1,20 @@
+{
+  "name": "serverGraphCoolProtoLBF",
+  "version": "1.0.0",
+  "description": "My Graphcool Service",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.1",
+    "@types/form-data": "^2.2.0",
+    "@types/validator": "^6.3.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.9.1",
+    "form-data": "^2.3.1",
+    "google-auth-library": "^1.1.0",
+    "googleapis": "^24.0.0",
+    "graphcool-lib": "^0.1.0",
+    "graphql-request": "^1.4.0",
+    "isomorphic-fetch": "^2.2.1",
+    "sanitize-html": "^1.18.2",
+    "validator": "^9.0.0"
+  }
+}

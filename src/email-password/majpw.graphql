@@ -1,0 +1,8 @@
+type updatePWPayload {
+  id: ID!
+  token: String!
+}
+
+extend type Mutation {
+  majpw(id: ID!, password: String!): updatePWPayload
+}

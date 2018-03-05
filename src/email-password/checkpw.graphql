@@ -1,0 +1,7 @@
+type CheckPwPayload {
+  checkPw: Boolean!
+}
+
+extend type Mutation {
+  checkpw(id: ID!, password: String!): CheckPwPayload
+}
