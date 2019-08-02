@@ -4,8 +4,8 @@ export default async event => {
   var cloudinary = require('cloudinary');
   cloudinary.config({ 
     cloud_name: 'la-bonne-fabrique', 
-    api_key: '355229151489945', 
-    api_secret: 'O8T7uwlHS6uu4LKqS2W50DZX7sI' 
+    api_key: '', 
+    api_secret: '' 
   });
 
   const { imageId } = event.data
